@@ -1,5 +1,5 @@
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
-import HomeIcon from '@mui/icons-material/Home';
+import HomeIcon from "@mui/icons-material/Home";
 import CodeIcon from "@mui/icons-material/Code";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
@@ -16,22 +16,18 @@ export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "JS Mastery", icon: <CodeIcon /> },
-  { name: "Coding", icon: <CodeIcon /> },
+  { name: "Traversy Media", icon: <CodeIcon /> },
+  { name: "Free Code Camp", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
-  { name: "Music", icon: <MusicNoteIcon /> },
-  { name: "Education", icon: <SchoolIcon /> },
+  { name: "Lofi Hiphop", icon: <MusicNoteIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },
-  { name: "Movie", icon: <OndemandVideoIcon /> },
-  { name: "Gaming", icon: <SportsEsportsIcon /> },
-  { name: "Live", icon: <LiveTvIcon /> },
-  { name: "Sport", icon: <FitnessCenterIcon /> },
-  { name: "Fashion", icon: <CheckroomIcon /> },
-  { name: "Beauty", icon: <FaceRetouchingNaturalIcon /> },
-  { name: "Comedy", icon: <TheaterComedyIcon /> },
+  { name: "Marvel", icon: <OndemandVideoIcon /> },
+  { name: "Genshin Impact", icon: <SportsEsportsIcon /> },
+  { name: "Guy Fashion", icon: <CheckroomIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
-  { name: "Crypto", icon: <DeveloperModeIcon /> },
+  { name: "Athlean X", icon: <FitnessCenterIcon /> },
+  { name: "Jeremy Ethier", icon: <FitnessCenterIcon /> },
+  { name: "Investing", icon: <DeveloperModeIcon /> },
 ];
 
 export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
