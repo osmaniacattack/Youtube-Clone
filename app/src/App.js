@@ -3,6 +3,10 @@ import { Box } from "@mui/material";
 import React from "react";
 import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './components';
 
+// App uses react-router-dom to navigate between pages. Default path "/" displays new videos
+// VideoDetail is a video's page supplemented with VideoCard components for viewing
+// ChannelDetail is a channel page supplemented with videos, channel card components
+// SearchFeed is similar to Feed page but takes user query input to populate videos
 
 const App = () => (
   <BrowserRouter>

@@ -1,3 +1,6 @@
+// Search component with a handler for updating the state of term and
+// rerouting to feed with user provided query input
+
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";

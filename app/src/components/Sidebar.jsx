@@ -1,3 +1,6 @@
+// Sidebar component that maps through categories (array of objects with "name" and "icon")
+// to dynamically render buttons that change video feed on click
+
 import React from "react";
 import { Stack } from "@mui/material";
 import { categories } from "../utils/constants";

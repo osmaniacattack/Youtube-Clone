@@ -1,3 +1,9 @@
+// Main portion of the app where videos are populated via dtynamic query input.
+// Videos in the feed will change when user clicks on different categories imported
+// from constants.js (dependency array reads selectedCategory changes)
+
+// Parent component for Navbar and Feed / SearchFeed
+
 import { useState, useEffect } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { Sidebar, Videos } from "./";

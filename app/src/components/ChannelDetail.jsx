@@ -1,3 +1,6 @@
+// Creates a simple channel page by receiving channel ID from params
+// when the component loads, uses useEffect hook to pull channel detail and its videos
+
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box } from "@mui/material";
@@ -8,8 +11,6 @@ const ChannelDetail = () => {
   const [channelDetail, setchannelDetail] = useState(null);
   const [videos, setvideos] = useState([]);
   const { id } = useParams();
-
-  console.log(channelDetail, videos);
 
   useEffect(() => {
     fetchFromAPI(`channels?part=snippet&id=${id}`).then((data) =>

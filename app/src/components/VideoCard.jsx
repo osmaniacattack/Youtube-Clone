@@ -1,3 +1,7 @@
+// This component represents an individual video card populated with the videos
+// id and snippet which contains title, thumbnail, and associated channel
+// This component is re-used in feed, searchFeed, and in the videoDetail components
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { Typography, Card, CardContent, CardMedia } from "@mui/material";

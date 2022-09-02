@@ -1,3 +1,6 @@
+// Adapted from feed component, with added Typography to represent dynamic
+// query input.
+
 import { useState, useEffect } from "react";
 import { Box, Typography } from "@mui/material";
 import { Videos } from "./";

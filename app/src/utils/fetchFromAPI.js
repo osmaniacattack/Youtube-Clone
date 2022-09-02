@@ -1,3 +1,6 @@
+// Utility function to dynamically input queries into API get request
+// using Axios and rapidAPI key
+
 import axios from 'axios';
 
 const BASE_URL = "https://youtube-v31.p.rapidapi.com";

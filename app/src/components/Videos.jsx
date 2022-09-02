@@ -1,3 +1,6 @@
+// This component receives a list of videos as props from a parent component's get request
+// The component will map to dynamically render Videos or Channels 
+
 import React from "react";
 import { Stack, Box } from "@mui/material";
 import { VideoCard, ChannelCard } from "./";

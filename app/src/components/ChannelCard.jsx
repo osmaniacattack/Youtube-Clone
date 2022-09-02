@@ -1,3 +1,6 @@
+// Component for an individual Channel card that can show up as a result from the query
+// Links to channel detail page and displays channel profile picture and subscribers
+
 import React from "react";
 import { Box, CardContent, CardMedia, Typography } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
@@ -5,7 +8,6 @@ import { Link } from "react-router-dom";
 import { demoProfilePicture } from "../utils/constants";
 
 const ChannelCard = ({ channelDetail, marginTop }) => {
-  console.log(channelDetail);
   return (
     <Box
       sx={{

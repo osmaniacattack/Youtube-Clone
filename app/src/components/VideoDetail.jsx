@@ -1,8 +1,16 @@
+// This component is shown when a user clicks on a video to view more information
+// such as the title, channel information, view and likes, and description.
+
+// This component receives the id from useParams and fetches relevant data using
+// axios utility function
+
+// The user can watch the video with full video controls using React's ReactPlayer package
+
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
-import { CheckCircle, SettingsInputSvideoSharp } from "@mui/icons-material";
+import { CheckCircle } from "@mui/icons-material";
 import { Videos } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 

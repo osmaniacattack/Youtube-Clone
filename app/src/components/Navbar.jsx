@@ -1,3 +1,5 @@
+// Simple navbar component linking logo to home page
+
 import React from "react";
 import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
